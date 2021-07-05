@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page13"
+    tools:context=".AboutDeveloperActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_aboutdevhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:src="@drawable/hospital5"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FSD Drugstore App Developer"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_aboutdevhead2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_aboutdevhead"
+        android:orientation="vertical"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/user_dev1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Ferdian Firmansyah"
+            android:drawableLeft="@drawable/ic_ferdi"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="25sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="362055401191"
+            android:drawableLeft="@drawable/ic_bingo"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_state1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="Back End Developer"
+            android:drawableLeft="@drawable/ic_backend"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+
+        <TextView
+            android:id="@+id/user_dev2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Endik Jauhari"
+            android:drawableLeft="@drawable/ic_endik"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="25sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="362055401200"
+            android:drawableLeft="@drawable/ic_bingo"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_state2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="Front End Developer"
+            android:drawableLeft="@drawable/ic_backend"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_dev3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Naafi Ramadhan"
+            android:drawableLeft="@drawable/ic_naff"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="25sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_num3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="362055401187"
+            android:drawableLeft="@drawable/ic_bingo"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_state3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="UI / UX Designer"
+            android:drawableLeft="@drawable/ic_backend"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

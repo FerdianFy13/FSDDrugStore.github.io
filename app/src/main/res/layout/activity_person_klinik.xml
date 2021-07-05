@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page6"
+    tools:context=".PersonKlinikActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_personklinik1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:src="@drawable/hospital8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txt_viewmainhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Pharmacy"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_personklinik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_personklinik1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewperson1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy Kimia Farma"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_pharmacy"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(0333) 418110"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_phonecall"
+            android:drawablePadding="15dp"
+            android:textColor="@color/navy"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_viewperson2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy Ima"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_pharmacy"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(0333) 421489"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_phonecall"
+            android:drawablePadding="15dp"
+            android:textColor="@color/navy"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_viewperson3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy Blambangan"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_pharmacy"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_phone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(0333) 4241329"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_phonecall"
+            android:drawablePadding="15dp"
+            android:textColor="@color/navy"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_viewperson4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy Al - Hadi"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_pharmacy"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_phone4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(0333) 424444"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_phonecall"
+            android:drawablePadding="15dp"
+            android:textColor="@color/navy"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_viewperson5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy Prima"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_pharmacy"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_phone5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(0333) 427747"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_phonecall"
+            android:drawablePadding="15dp"
+            android:textColor="@color/navy"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</RelativeLayout>

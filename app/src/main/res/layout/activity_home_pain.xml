@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/page11"
+    tools:context=".HomePainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_homepain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewmainpain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Pain Killer"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homepain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homepain"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/hometxt1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/user_txthpain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Asam Metafenamat 500 mg 10 Kaplet"
+            android:drawableLeft="@drawable/ic_obatlima"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneypain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 2.500 - Rp 11.200"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthpain3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Voltadex 50 mg 10 Tablet"
+            android:drawableLeft="@drawable/ic_obatnam"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneypain3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 3.900 - Rp 13.300"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthpain4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Paramex 4 Tablet"
+            android:drawableLeft="@drawable/ic_obattuju"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneypain4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 2.100 - Rp 6.500"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthpain5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Voltaren 50 mg 10 Tablet"
+            android:drawableLeft="@drawable/ic_obat1"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneypain5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 78.800 - Rp 152.000"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthpain6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Bodrex Migran 4 Kaplet"
+            android:drawableLeft="@drawable/ic_obatdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneypain6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 2.300 - Rp 5.300"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

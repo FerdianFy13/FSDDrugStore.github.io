@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/page10"
+    tools:context=".DashboardViewActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_headerdashdaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:src="@drawable/hospitalbuilding"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queue View"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_dashdaftar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_headerdashdaftar"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/user_txthdaftar1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/form"
+            android:hint="Input Mobile Phone Number"
+            android:textColor="@color/black"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/ic_phone_call"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/user_txthdaftar2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/form"
+            android:hint="Input Name"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_name"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/user_txthdaftar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/form"
+            android:hint="Input Necessity"
+            android:textColor="@color/black"
+            android:drawablePadding="15dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_need"
+            android:paddingLeft="30dp"
+            android:textColorHint="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/user_txthdaftar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/form"
+            android:hint="Queue"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_robotics"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:textColorHint="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/btndaftar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btnform"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="view date"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page8"
+    tools:context=".PersonHelpActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_personkhelp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/hospital8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txt_viewmainhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Help"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_personklinik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear_personkhelp1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewperson1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="That's great"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_viewperson2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tell us what we got right"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_personklinik3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear_personklinik2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    <EditText
+        android:id="@+id/perUser"
+        android:background="@drawable/form"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="30dp"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_user_silhouette"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/perEmail"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/form"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:paddingLeft="30dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/perSubject"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/form"
+        android:hint="Subject"
+        android:drawableLeft="@drawable/ic_book"
+        android:drawablePadding="10dp"
+        android:paddingLeft="30dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/perMessage"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/form"
+        android:hint="Message"
+        android:drawableLeft="@drawable/ic_chatting"
+        android:drawablePadding="10dp"
+        android:paddingLeft="30dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_personhelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnform"
+        android:text="Submit"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

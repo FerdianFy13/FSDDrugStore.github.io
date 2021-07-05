@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/page11"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".HomeVitaminActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_homevit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewmainvit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Vitamin and Supplement"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homevit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homevit"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/hometxt1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/user_txthvit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Hepamax 30 Kapsul"
+            android:drawableLeft="@drawable/ic_obattiga"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneyvit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 286.100 - Rp 482.600"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthvit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Zegavit 5 Kaplet"
+            android:drawableLeft="@drawable/ic_obatempat"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneyvit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 20.200 - Rp 33.000"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthvit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Enervon-C 4 Tablet"
+            android:drawableLeft="@drawable/ic_obatlima"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneyvit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 3.500 - Rp 14.400"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthvit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Fundamin-E 4 Tablet"
+            android:drawableLeft="@drawable/ic_obatnam"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneyvit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 3.600 - Rp 9.000"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthvit6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="Imboost 4 Tablet"
+            android:drawableLeft="@drawable/ic_obattuju"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthmoneyvit6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="45dp"
+            android:text="Rp 15.700 - Rp 36.000"
+            android:drawableLeft="@drawable/ic_money"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+    </LinearLayout>
+</LinearLayout>

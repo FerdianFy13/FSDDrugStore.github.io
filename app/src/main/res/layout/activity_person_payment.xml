@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page9"
+    tools:context=".PersonPaymentActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_personpayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:src="@drawable/hospital8"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txt_viewmainhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Payment"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_personklinik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_personpayment"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewperson1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank Transfer"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_moneytransfer"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank Mandiri"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_cardbank"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank BCA"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_cardbank"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_phone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank BRI"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_cardbank"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_viewperson3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit Card"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_credit_card"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_cd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master Card"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_passport"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_cd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visa"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_passport"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_viewperson2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internet Banking"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_onlinebanking"
+            android:drawablePadding="15dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_tf1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank BCA"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_cardpayment"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_tf2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank BNI"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_cardpayment"
+            android:drawablePadding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</RelativeLayout>

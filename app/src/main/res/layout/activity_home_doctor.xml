@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/page11"
+    tools:context=".HomeDoctorActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:src="@drawable/hospital6"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txt_viewmainhead245"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Doctor Consultation"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor11"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:drawableLeft="@drawable/ic_general"
+            android:drawablePadding="10dp"
+            android:text="General Practitioners"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor12"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:drawableLeft="@drawable/ic_dentist"
+            android:drawablePadding="10dp"
+            android:text="Dentist"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor13"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Neurologist"
+            android:drawableLeft="@drawable/ic_neurolo"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor14"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Eye Specialist"
+            android:drawableLeft="@drawable/ic_eyedoc"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor15"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Internal Medicine"
+            android:drawableLeft="@drawable/ic_internal"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor16"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Nutritionist"
+            android:drawableLeft="@drawable/ic_nutritionist"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctor7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctor"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/textdoctor17"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Cardiologist"
+            android:drawableLeft="@drawable/ic_cardiologist"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+</LinearLayout>

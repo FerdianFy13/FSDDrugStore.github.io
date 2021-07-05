@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page11"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".HomeGCActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_homedoctorgc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewmainhead245"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="General Practitioners"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_docgc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctorgc"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/user_txtdocgc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/hometxt1"
+            android:justificationMode="inter_word"
+            android:hint="@string/dokter_umum"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_docgc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homedoctorgc"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/hometxt1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/user_txtdocgc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:justificationMode="inter_word"
+            android:text="General Practitioners"
+            android:drawableLeft="@drawable/ic_general"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txtdocgc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="Dr. Ania Mutmaniah"
+            android:drawableLeft="@drawable/ic_dcotorab"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="17sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txtdocgc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="Dr. Vania Angela"
+            android:drawableLeft="@drawable/ic_dcotorab"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="17sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txtdocgc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="Dr. Hendri Wijaya"
+            android:drawableLeft="@drawable/ic_doctora"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="17sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

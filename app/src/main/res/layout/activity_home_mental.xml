@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/page11"
+    tools:context=".HomeMentalActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_homemental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_viewmainmental"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Mental Health"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homemental2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homemental"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/hometxt1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/user_txthmental2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:justificationMode="inter_word"
+            android:text="How to Maintain Mental Health"
+            android:drawableLeft="@drawable/ic_sympathy"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Active and diligent in sports"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Learn new skills"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Help others"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Build awareness and focus"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Eat a balanced nutritious diet"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Rest"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+        <TextView
+            android:id="@+id/user_txthnummental8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="40dp"
+            android:text="Seek medical help"
+            android:drawableLeft="@drawable/ic_checklistdua"
+            android:drawablePadding="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:gravity="center_vertical|start"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>

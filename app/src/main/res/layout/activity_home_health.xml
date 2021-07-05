@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/page11"
+    tools:context=".HomeHealthActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:src="@drawable/hospital6"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txt_viewhealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Health Store"
+            android:textColor="#191654"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth1"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:drawableLeft="@drawable/ic_flu"
+            android:drawablePadding="10dp"
+            android:text="Cough and Flu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth2"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:drawableLeft="@drawable/ic_routine"
+            android:drawablePadding="10dp"
+            android:text="Routine Medicines"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth3"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Vitamin and Supplement"
+            android:drawableLeft="@drawable/ic_vitamins"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth4"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Eyes"
+            android:drawableLeft="@drawable/ic_eye_dropper"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth5"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Pain Killer"
+            android:drawableLeft="@drawable/ic_pain_killer"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth6"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Antiseptic"
+            android:drawableLeft="@drawable/ic_antiseptic"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_homehealth7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_homehealth"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/texthealth7"
+            android:background="@drawable/personform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="30dp"
+            android:text="Herbal"
+            android:drawableLeft="@drawable/ic_herbal"
+            android:drawablePadding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:textColor="@color/cardview_dark_background"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_homegraf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_home1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/formhome"
+            android:drawableLeft="@drawable/ic_menu"
+            android:drawableRight="@drawable/ic_search"
+            android:gravity="center_horizontal"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="FSD Drugstore"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_headerabout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/formhomepage"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_homepeduli1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Caring Service"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_homepeduli2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_doctor"
+            android:drawablePadding="15dp"
+            android:text="Doctor Consultation"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txt_homepeduli13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_drugs"
+            android:drawablePadding="15dp"
+            android:text="Health Store"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_headerabout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/formhomepage"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_homehealth1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Health Services"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_homehealth2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_vision"
+            android:drawablePadding="15dp"
+            android:text="Eye health"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txt_homehealth3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_sympathy"
+            android:drawablePadding="15dp"
+            android:text="Mental Health"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txt_homehealth4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_covid_19"
+            android:drawablePadding="15dp"
+            android:text="Anticipate Covid"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txt_homehealth5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_bmi"
+            android:drawablePadding="15dp"
+            android:text="BMI Calculator"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_headerabout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/formhomepage"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_homearticle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Article Service"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_homearticle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_vaccination"
+            android:drawablePadding="15dp"
+            android:text="Covid Articles"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txt_homearticle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_healthcare"
+            android:drawablePadding="15dp"
+            android:text="Health articles"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txt_homearticle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/ic_picnic"
+            android:drawablePadding="15dp"
+            android:text="Healthy Food Articles"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="normal|italic" />
+
+    </LinearLayout>
+
+</LinearLayout>

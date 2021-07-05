@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cddteam">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fsstore"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fsstore"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CDDTeam">
+        <activity android:name=".DashboardExitActivity"></activity>
+        <activity android:name=".DashboardDateActivity" />
+        <activity android:name=".DashboardViewActivity" />
+        <activity android:name=".DashboardQueueActivity" />
+        <activity android:name=".HomeArticleFoodActivity" />
+        <activity android:name=".HomeArticleHealthActivity" />
+        <activity android:name=".HomeArticleCovidActivity" />
+        <activity android:name=".HomeAnticipateActivity" />
+        <activity android:name=".HomeMentalActivity" />
+        <activity android:name=".HomeMataActivity" />
+        <activity android:name=".HomeCalculActivity" />
+        <activity android:name=".HomeHerbalActivity" />
+        <activity android:name=".HomeAntisepticActivity" />
+        <activity android:name=".HomePainActivity" />
+        <activity android:name=".HomeHealEyesActivity" />
+        <activity android:name=".HomeVitaminActivity" />
+        <activity android:name=".HomeRoutineActivity" />
+        <activity android:name=".HomeFlueActivity" />
+        <activity android:name=".HomeHealthActivity" />
+        <activity android:name=".HomeCardioActivity" />
+        <activity android:name=".HomeNutActivity" />
+        <activity android:name=".HomeInternalActivity" />
+        <activity android:name=".HomeEyeActivity" />
+        <activity android:name=".HomeNeuActivity" />
+        <activity android:name=".AboutDeveloperActivity" />
+        <activity android:name=".HomeDTActivity" />
+        <activity android:name=".HomeGCActivity" />
+        <activity android:name=".HomeDoctorActivity" />
+        <activity android:name=".PersonHelpActivity" />
+        <activity android:name=".PersonPaymentActivity" />
+        <activity android:name=".PersonInsuranceActivity" />
+        <activity android:name=".PersonKlinikActivity" />
+        <activity
+            android:name=".BottomActivity"
+            android:label="@string/title_activity_bottom" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
